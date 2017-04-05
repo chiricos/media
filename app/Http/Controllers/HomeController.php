@@ -11,27 +11,39 @@ use App\Http\Requests\UserRequest;
 class HomeController extends Controller
 {
 
+    /*
+     * Edward diaz
+     */
+
+    /*
+     * Esta es la pagina inicial que esta disponible para todos pero solo da la bienvenida
+     * no contiene datos vulnerables
+     */
     public function inicio()
     {
         return view('template.inicio');
     }
 
+    /*
+     * Inidico el login
+     */
     public function getLogin()
     {
         return view('auth.login');
     }
 
+    /*
+     * Visualiza el formulario para registrarse
+     */
     public function createUser()
     {
         return view('back.user.create');
-        if(\Auth::check()){
-            return redirect()->route('inicio')->with('message_error','No te puedes registrar porque ya esta logeado');
-        }else{
-
-        }
-
     }
 
+    /*
+     * Guarda los datos del usuario que se acaba de registrar
+     * y luego lo logea y lo devuelve al inicio
+     */
     public function store(UserRequest $request )
     {
         $user = new User($request->all());

@@ -12,6 +12,12 @@ class ProductRequest extends Request
         return true;
     }
 
+    /*
+     * Edward diaz
+     *
+     * doy permiso de utilizar el request
+     * y hago los validaciones del formulario producto
+     */
 
     public function rules()
     {

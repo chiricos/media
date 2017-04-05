@@ -7,6 +7,14 @@ use App\Http\Requests\Request;
 class UserRequest extends Request
 {
 
+    /*
+     * Edward Díaz
+     *
+     * Se da permiso de utilizar el userRequest
+     *
+     * y se hacen las validaciones para los campos del fomulario de registro
+     */
+
     public function authorize()
     {
         return true;

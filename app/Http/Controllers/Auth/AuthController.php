@@ -23,6 +23,10 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
+    /*
+     * Edward diaz
+     * Redirecciono cuando se inicia sesión
+     */
 
     protected $redirectTo = 'inicio';
 
@@ -49,12 +53,21 @@ class AuthController extends Controller
         ]);
     }
 
+    /*
+     * Edward Diaz
+     * Redirecciono cuando se cierra sesión
+     */
+
     public function getLogout()
     {
         \Auth::logout();
         return Redirect()->route('home')->with('message_error', 'La sesión se cerro');
     }
 
+    /*
+     * Edward Diaz
+     * Indico en donde esta la vista login para visualizarla en la ruta /
+     */
     public function getLogin()
     {
         return view('template.login');

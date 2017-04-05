@@ -15,8 +15,8 @@
 
 
             <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Nombre','id'=>'nombre']) !!}
+                <label for="nombre">Buscar:</label>
+                {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Buscar','id'=>'nombre']) !!}
 
             </div>
 
@@ -37,7 +37,7 @@
             {!! Form::close() !!}
         </div>
 
-        <div class="container">
+        <div class="container" style="overflow: scroll;">
             <h2>Lista de productos</h2>
             <table class="table table-striped">
                 <thead>

@@ -17,6 +17,11 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
+        /*
+         * Edward Díaz
+         *
+         * Indico a que direccion se vaya cuando ya este logeado
+         */
         if (Auth::guard($guard)->check()) {
             return redirect('inicio');
         }
