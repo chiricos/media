@@ -9,6 +9,33 @@
 
         <a href="{{route('product.create')}}" class="btn btn-success">Crear Producto</a>
 
+        <div class="container">
+            <h4>Buscar</h4>
+            {!! Form::open(['route'=>'search','method'=>'POST','class'=>'form-inline']) !!}
+
+
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Nombre','id'=>'nombre']) !!}
+
+            </div>
+
+            <div class="form-group">
+                <label for="price">Filtro:</label>
+                {!! Form::select('filtro',[
+                    ''              =>  "Seleccione campo",
+                   "name"           =>  "Nombre",
+                   "color"          =>  "Color",
+                   "volume"         =>  "Volumen",
+                   "price"          =>  "Precio"
+                    ],null,['class' =>  'form-control']) !!}
+
+            </div>
+
+            {!! Form::submit('Filtrar',['class'=>'btn btn-default'])!!}
+
+            {!! Form::close() !!}
+        </div>
 
         <div class="container">
             <h2>Lista de productos</h2>

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Media\Entities\Product;
 use App\Http\Requests\ProductRequest;
+use App\Media\Repositores\searchProduct;
 
 class ProductController extends Controller
 {
@@ -49,6 +50,14 @@ class ProductController extends Controller
         $product = Product::find($id);
         $product->delete();
         return redirect()->back()->with('message','El producto '.$product->name.' fue eliminado exitosamente');
+    }
+
+    public function search(Request $request)
+    {
+        $search = new searchProduct($request->name,$request->filtro);
+        $products = $search->getSearch();
+
+        return view('back.product.index',compact('products'));
     }
 
 }
