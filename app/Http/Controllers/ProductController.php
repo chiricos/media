@@ -52,6 +52,11 @@ class ProductController extends Controller
         return redirect()->back()->with('message','El producto '.$product->name.' fue eliminado exitosamente');
     }
 
+    public function getSearch()
+    {
+        return redirect()->route('product.index');
+    }
+
     public function search(Request $request)
     {
         $search = new searchProduct($request->name,$request->filtro);

@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.5">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.79646015">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchProduct.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchProduct.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Media/Repositories/searchProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3141593">
+            <state vertical-scroll-proportion="-8.875">
               <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding />
             </state>
@@ -122,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.5">
-              <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -166,11 +166,11 @@
         <option value="$PROJECT_DIR$/resources/views/back/product/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Media/Entities/User.php" />
         <option value="$PROJECT_DIR$/app/Media/Entities/Product.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/resources/views/back/product/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Media/Repositories/searchProduct.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
       </list>
     </option>
   </component>
@@ -637,7 +637,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;produc&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;routes&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;pr&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;user&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Media/Entities/User.php&#10;product&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Media/Entities/Product.php&#10;productre&#9;null&#9;null&#10;productcon&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;rou&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;logi&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/resources/views/auth/login.blade.php&#10;homec&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/HomeController.php&#10;auth&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/Auth/AuthController.php&#10;route&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;aut&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/Auth/AuthController.php&#10;style&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/public/css/style.css&#10;ro&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;home&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/HomeController.php&#10;style.c&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/public/css/style.css&#10;userre&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/config/app.php" />
+    <property name="SearchEverywhereHistoryKey" value="prod&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;route&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;pro&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;produc&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;routes&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;pr&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;user&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Media/Entities/User.php&#10;product&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Media/Entities/Product.php&#10;productre&#9;null&#9;null&#10;productcon&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/ProductController.php&#10;rou&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;logi&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/resources/views/auth/login.blade.php&#10;homec&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/HomeController.php&#10;auth&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/Auth/AuthController.php&#10;aut&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/Auth/AuthController.php&#10;style&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/public/css/style.css&#10;ro&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/routes.php&#10;home&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/app/Http/Controllers/HomeController.php&#10;style.c&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/public/css/style.css&#10;userre&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/drawde/Documents/proyectos/mios/media/config/app.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1055,14 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/back/user/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-52.625">
@@ -1087,14 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1111112">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/back/product/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2727273">
@@ -1107,21 +1091,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/app/Media/Repositories/searchProduct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.875">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Media/Repositories/searchProduct.php">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3141593">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state vertical-scroll-proportion="-1.1111112">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79646015">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

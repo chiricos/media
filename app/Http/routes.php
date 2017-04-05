@@ -27,6 +27,7 @@ Route::group(['middleware'=>'auth'],function(){
         'as'    =>  'product.destroy'
     ]);
 
+    Route::get('search', ['as' => 'search', 'uses' => 'ProductController@getSearch']);
     Route::post('search', ['as' => 'search', 'uses' => 'ProductController@search']);
 
 });
