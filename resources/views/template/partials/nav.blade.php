@@ -12,7 +12,7 @@
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check())
                     <li><a href="{{route('inicio')}}">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <li><a href="{{route('product.index')}}">Productos</a></li>
                     <li><a href="{{route('auth/logout')}}">Cerrar Sesión</a></li>
                 @else
                     <li><a href="{{route('inicio')}}">Inicio</a></li>
