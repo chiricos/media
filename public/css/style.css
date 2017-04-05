@@ -183,3 +183,14 @@ footer .glyphicon {
 .navbar-brand > img{
     margin-top:-15px ;
 }
+
+.danger{
+    color: red;
+    font-size: 11px;
+}
+
+.alert{
+    margin: 80px auto -30px;
+    width: 50%;
+}
+

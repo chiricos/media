@@ -13,27 +13,32 @@
 
 <body class="align">
 
+@include('template.partials.alerts')
+@include('template.partials.errors')
+
 <div class="grid">
 
-    <form action="https://httpbin.org/post" method="POST" class="form login">
+    {!! Form::open(['route'=>'auth/login','method'=>'post','class'=>'form login','autocomplete'=>'off']) !!}
 
         <div class="form__field">
             <label for="login__username"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use></svg><span class="hidden">Username</span></label>
-            <input id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+            {!! Form::text('email',null,['placeholder'=>'E-mail','required','class'=>'form__input email','autocomplete'=>'off','id'=>'login__username']) !!}
+
         </div>
 
         <div class="form__field">
             <label for="login__password"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use></svg><span class="hidden">Password</span></label>
-            <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+            {!! Form::password('password',['placeholder'=>'Contraseña','required','class'=>'form__input','autocomplete'=>'off','id'=>'login__password']) !!}
+
         </div>
 
         <div class="form__field">
-            <input type="submit" value="Sign In">
+            <input type="submit" value="Entrar">
         </div>
 
-    </form>
+    {!! Form::close() !!}
 
-    <p class="text--center">Not a member? <a href="{{route('register')}}">Sign up now</a> <svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/images/icons.svg#arrow-right"></use></svg></p>
+    <p class="text--center">¿No eres miembro? <a href="{{route('register')}}">Registrase</a> <svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/images/icons.svg#arrow-right"></use></svg></p>
 
 </div>
 
@@ -249,7 +254,7 @@
     }
 
     .login input[type='submit'] {
-        background-color: var(--loginSubmitBackgroundColor);
+        background-color: #f4511e;
         color: var(--loginSubmitColor);
         font-weight: 700;
         text-transform: uppercase;
@@ -257,7 +262,8 @@
 
     .login input[type='submit']:focus,
     .login input[type='submit']:hover {
-        background-color: var(--loginSubmitHoverBackgroundColor);
+        background-color: #f4511e;
+        opacity: 0.8;
     }
 
     /* modules/text.css */
