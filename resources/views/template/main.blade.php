@@ -23,7 +23,7 @@
 
 
 
-<div id="about" class="container-fluid hidden">
+<div id="about" class="container-fluid ">
     <div class="row">
         @yield('content')
     </div>

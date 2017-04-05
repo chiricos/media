@@ -13,3 +13,4 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@getLogin']);
 Route::get('registrarse', ['as' => 'register', 'uses' => 'HomeController@createUser']);
+Route::post('registrarse', ['as' => 'back.user.store', 'uses' => 'HomeController@store']);
