@@ -37,7 +37,7 @@
             {!! Form::close() !!}
         </div>
 
-        <div class="container" style="overflow: scroll;">
+        <div class="container" style="overflow: auto;">
             <h2>Lista de productos</h2>
             <table class="table table-striped">
                 <thead>

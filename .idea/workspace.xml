@@ -22,12 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84444445">
+            <state vertical-scroll-proportion="-21.11111">
               <caret line="38" column="110" selection-start-line="38" selection-start-column="110" selection-end-line="38" selection-end-column="110" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/back/product/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5280236">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+              <folding>
+                <marker date="1491397846000" expanded="true" signature="708:1049" placeholder="..." />
+                <marker date="1491397846000" expanded="true" signature="722:1047" placeholder="..." />
+                <marker date="1491397846000" expanded="true" signature="732:1012" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +80,6 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/css/login.css" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/back/product/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
@@ -76,6 +89,7 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" />
         <option value="$PROJECT_DIR$/app/Media/Repositories/searchProduct.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/resources/views/back/product/index.blade.php" />
       </list>
     </option>
   </component>
@@ -969,19 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/back/product/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50884956">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="e#1228#1253#0#HTML" expanded="true" />
-            <marker date="1491395937000" expanded="true" signature="708:1049" placeholder="..." />
-            <marker date="1491395937000" expanded="true" signature="722:1047" placeholder="..." />
-            <marker date="1491395937000" expanded="true" signature="732:1012" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24336283">
@@ -1074,9 +1075,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84444445">
+        <state vertical-scroll-proportion="-21.11111">
           <caret line="38" column="110" selection-start-line="38" selection-start-column="110" selection-end-line="38" selection-end-column="110" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back/product/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5280236">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <marker date="1491397846000" expanded="true" signature="708:1049" placeholder="..." />
+            <marker date="1491397846000" expanded="true" signature="722:1047" placeholder="..." />
+            <marker date="1491397846000" expanded="true" signature="732:1012" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
